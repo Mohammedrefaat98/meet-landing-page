@@ -1,0 +1,145 @@
+html , body{
+    font-family: "Red Hat Display", serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+nav img{
+    width: calc(1em + 6vw);
+    height: auto;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    padding: 3vw 0;
+}
+
+
+.center-intro{
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    width: 60%;
+}
+.center-intro h1{
+    font-weight: 900;
+    font-size: 4.5vw;
+    text-align: center;
+    margin:0;
+    line-height: 1em;
+    color:#28283D;
+}
+.center-intro p{
+    font-size: 1.25vw;
+    text-align: center;
+    margin: 2vw 0;
+    color: #87879D;
+}
+
+.left-img{
+    position: relative;
+    width: 100%;
+    left: -2vw;
+}
+.right-img{
+    position: relative;
+    width: 100%;
+    left: 2vw;
+}
+.buttons button{
+    padding: 1vw 2vw;
+    font-weight: bold;
+    border-radius: 2em;
+    border:0;
+    margin: 0em 0.3vw;
+    color: white;
+}
+
+.buttons button:first-child{
+    width:12vw;
+    font-size: 1vw;
+    background-color: #4D96A9;
+}
+
+.buttons button:first-child span{
+    color: #8FE3F9;
+}
+.buttons button:last-child{
+    width:10vw;
+    font-size: 1vw;
+    background-color: #855FB1;
+}
+
+.body{
+    display: grid;
+    padding: 2vw 10vw;
+    justify-items: center;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    align-items: center;
+}
+
+.body img{
+    width: 4vw;
+}
+
+.body-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2vw;
+}
+
+.body-images img{
+    width: 100%;
+    border-radius: 1vw;
+}
+
+.body-text{
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    width: 50%;
+}
+
+.body-text p:first-child{
+    text-transform: uppercase;
+    color: #4D96A9;
+    font-weight: 900;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+.body-text h2{
+    color: #28283D;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin:0;
+    line-height: 4vw;
+}
+
+.body-text p:last-child{
+    color: #87879D;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+footer{
+    display: grid;
+    padding: 2vw 0;
+    justify-items: center;
+    grid-template-rows: 0.5fr 1fr;
+    align-items: center;
+}
+
+footer img:first-child{
+    width: 4vw;
+}
+footer img:last-child{
+    width: 100%;
+    color: #4d97a99d;
+}
