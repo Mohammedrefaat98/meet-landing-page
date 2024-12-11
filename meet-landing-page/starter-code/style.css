@@ -76,7 +76,7 @@ nav img{
     background-color: #855FB1;
 }
 
-.body{
+.body-1{
     display: grid;
     padding: 2vw 10vw;
     justify-items: center;
@@ -84,7 +84,7 @@ nav img{
     align-items: center;
 }
 
-.body img{
+.body-1 img{
     width: 4vw;
 }
 
@@ -128,46 +128,55 @@ nav img{
     font-size: 1.3vw;
 }
 
+.body-2{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto auto;
+    align-items: center;
+    position: relative;
+}
+.number-2{
+    top: 2vw;
+    position: relative;
+    z-index: 2;
+    width: 4vw;
+}
+
 footer{
     display: grid;
-    padding: 2vw 0;
     justify-items: center;
-    grid-template-rows: 0.5fr 1fr;
     align-items: center;
 }
 
-footer img:first-child{
-    width: 4vw;
-}
 .footer-img{
     width: 100vw;
-    color: #4d97a99d;
-    position: relative;
-    z-index: -1;
-    bottom: 2.5vw;
-    filter: opacity(0.5) drop-shadow(0 0 0 #2ebfe4);
+    color: #4D96A9;
+    filter: opacity(0.4) drop-shadow(0 0 0 #2ebfe4);
 }
 .footer-text{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2vw;
+    margin: 0 10vw;
+    column-gap: 10vw;
+    font-size: 1vw;
     justify-items: center;
     position: absolute;
     color: white;
+    align-items: center;
 }
 
 .footer-text button{
     padding: 1vw 2vw;
     font-weight: bold;
-    border-radius: 6em;
+    border-radius: 4vw;
     border:0;
-    margin: 0 0.3vw;
     color: white;
-    width:200px;
+    width:12vw;
+    height: 4vw;
     font-size: 1vw;
-    background-color: #4D96A9;
+    background-color: #855FB1;
 }
 
-.footer-text button:first-child span{
-    color: #8FE3F9;
+.footer-text button span{
+    color: #D9B8FF;
 }
